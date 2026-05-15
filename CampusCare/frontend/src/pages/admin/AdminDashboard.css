@@ -1,0 +1,170 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+  padding: 40px;
+  background: linear-gradient(to right, #e3f2fd, #f5f7fa);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-dashboard h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #1a237e;
+  letter-spacing: 1px;
+}
+
+.complaint-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Adjusted to allow larger complaint boxes */
+  gap: 30px;  /* Increased gap between boxes */
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.complaint-box {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;  /* Increased padding for more space inside */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  max-width: 500px;  /* Set a maximum width to avoid overly stretched boxes */
+}
+
+.complaint-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.complaint-box h3 {
+  margin-bottom: 15px;
+  font-size: 22px;  /* Slightly larger font for title */
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.complaint-box p {
+  margin: 8px 0;
+  font-size: 16px;  /* Slightly larger font size for better readability */
+  color: #444;
+  line-height: 1.6;
+}
+
+.status {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #1565c0;
+  font-size: 16px;  /* Increased font size for status */
+  position: absolute;
+  bottom: 30px;  /* Adjusted for better visual positioning */
+  left: 30px;
+}
+
+.user-details {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.user-details p {
+  margin: 6px 0;
+  color: #37474f;
+  font-size: 14px;
+}
+
+/* Solve button */
+.solve-btn {
+  align-self: flex-end;
+  background-color: #43a047;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;  /* Slightly larger button text */
+  transition: background-color 0.3s ease;
+}
+
+.solve-btn:hover {
+  background-color: #2e7d32;
+}
+
+/* Logout button styling */
+.logout-btn {
+  display: block;
+  margin: 40px auto 0;
+  padding: 14px 28px;
+  background-color: #d32f2f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;  /* Larger font for logout button */
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #b71c1c;
+}
+
+
+
+/* Top action buttons */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.action-btn {
+  background-color: #1976d2;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.action-btn:hover {
+  background-color: #1565c0;
+  transform: translateY(-2px);
+}
+
+
+
+
+.filter-button,
+.excel-button {
+  background-color: #2563eb; /* Blue */
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 10px 8px 20px 0;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filter-button:hover,
+.excel-button:hover {
+  background-color: #1d4ed8; /* Darker blue on hover */
+}

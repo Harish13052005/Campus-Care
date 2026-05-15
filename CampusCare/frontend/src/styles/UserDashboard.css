@@ -1,0 +1,148 @@
+/* Container for the user dashboard */
+.dashboard-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header text for user greeting */
+.dashboard-container h2 {
+  text-align: center;
+  color: #004aad;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Complaint form styling */
+.complaint-form input,
+.complaint-form textarea,
+.complaint-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Button styling for complaint submission */
+.complaint-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.complaint-form button:hover {
+  background-color: #003380;
+}
+
+/* Logout button styling */
+.logout-button {
+  margin-top: 20px;
+  background-color: #ff4d4f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 20%;
+}
+
+.logout-button:hover {
+  background-color: #d9363e;
+}
+
+/* My Complaints button style */
+.my-complaints-button {
+  background-color: #1976d2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.my-complaints-button:hover {
+  background-color: #155fa0;
+}
+
+
+
+/* Style for the Back Button */
+.back-button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for better click area */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor to indicate it's clickable */
+  margin-top: 20px; /* Space between the button and other elements */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+.back-button:focus {
+  outline: none; /* Remove the default focus outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a focus shadow for accessibility */
+}
+
+.back-button:active {
+  background-color: #004085; /* Even darker blue when clicked */
+}
+
+
+.readonly-date {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  color: #555;
+  margin-top: 8px;
+  cursor: not-allowed;
+}
+
+.back-button {
+  background-color: #6c62f7;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #6065f8;
+}
+
+
+
+.date-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  margin-bottom: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}

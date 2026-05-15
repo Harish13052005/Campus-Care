@@ -1,0 +1,83 @@
+.user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.user-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.user-form h2 {
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+.user-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.user-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #002d62;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-form button:hover {
+  background-color: #004494;
+}
+
+.user-form p {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.user-form a {
+  color: purple;
+  text-decoration: none;
+}
+
+.user-form a:hover {
+  text-decoration: underline;
+}
+
+.user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* This gets overridden by inline bg image */
+  padding: 20px;
+}
+
+.user-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
